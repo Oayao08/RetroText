@@ -1,9 +1,3 @@
-
----
-
-## 📄 `Makefile`
-
-```make
 CC=gcc
 CFLAGS=-Wall -Wextra -std=c99
 SRC=src/main.c
@@ -14,4 +8,3 @@ all:
 
 clean:
 	rm -f $(OUT)
-  
